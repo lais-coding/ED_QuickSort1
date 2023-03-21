@@ -13,8 +13,8 @@ public class Principal {
 	vetor = ordenacao.quickSort(vetor, 0, vetor.length - 1);
 	
 	for(int valor : vetor) {
-		System.out.println(valor);
-		System.out.println(" ");
+		System.out.print(valor);
+		System.out.print(" - ");
 	}
 	
 	
